@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voters Reg</title>
+    <!-- Using naeees_logo.jpg as the favicon (logo in the tab) -->
+    <link rel="icon" href="naeees_logo.jpg" type="image/jpg">
+
+    <style>
+        /* Basic CSS reset */
+        body, div, h1, p, iframe {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        
+        /* Container holding the logos and the form */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Logo styling */
+        .logo {
+            width: 120px; /* Size of the logos */
+            height: auto;
+            margin: 0 10px 20px; /* Space between the logos and bottom margin */
+        }
+
+        /* Responsive iframe styling */
+        .responsive-iframe-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 75%;
+        }
+
+        .responsive-iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Instruction text */
+        .instruction {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Logos: You can replace with your own images -->
+        <img src="naeees_logo.jpg" alt="NAEEES Logo" class="logo">
+        <img src="gaposa_logo.jpg" alt="GAPOSA Logo" class="logo">
+
+        <!-- Description -->
+        <h1>THIS IS THE NAEEES - GAPOSA CHAPTER VOTERS REGISTRATION WEBSITE</h1>
+
+        <!-- Instruction -->
+        <p class="instruction">Please ensure to input only correct details</p>
+
+        <!-- Embed Google Form -->
+        <div class="responsive-iframe-container">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2jHwxabAsbJIwdgTpvUPNh1CjvecCqwYOZXmJbd1I6Ro7bg/viewform?embedded=true">Loading…</iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
